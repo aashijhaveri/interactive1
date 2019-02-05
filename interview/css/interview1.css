@@ -1,17 +1,64 @@
 
 body {
-  background: #ff0239;
+  background: #bfefe9;
   text-align: center;
-  margin: 0 auto;
-  color: white;
+  color: #6457a8;
   -webkit-font-smoothing: antialiased;
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 19px;
+ 
 }
 
 #container {
 	max-width: 650px
+	 margin: 0 auto;
 }
 
-img {
-  max-width: 100%;
+#toc {
+	position: fixed;
+  top: 1em;
+  right: 1em;
+  background: #e21638;
+  padding: 1em;
+  color:#bfefe9 ;
+  font-size: 0.7em;
 }
+  
+img {
+  max-width: 50%;
+}
+
+#toc a {
+  color: #bfefe9 ;
+  text-decoration: none;
+}
+
+#toc ul {
+padding: 20px;
+  list-style-type: square;
+}
+  
+h1 {
+
+  font-weight: 700;
+  text-align: center;
+  font-size: 3em;
+  line-height: 1.5;
+  margin-bottom: 1em;
+}
+
+h2 {
+  
+  background: #f2da41;
+  padding: 0.1em;
+  font-weight: normal;
+  color: #0f80e2;
+  margin-top: 2em;
+}
+
+
+
+
+
+
+
