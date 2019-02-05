@@ -1,0 +1,17 @@
+
+body {
+  background: #ff0239;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  font-size: 19px;
+}
+
+#container {
+	max-width: 650px
+}
+
+img {
+  max-width: 100%;
+}
