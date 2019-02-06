@@ -37,6 +37,17 @@ img {
 padding: 20px;
   list-style-type: square;
 }
+
+#ref a {
+  color: #6457a8;
+  text-decoration: none;
+}
+
+#ref ul {
+padding: 20px;
+  list-style-type: none;
+}
+
   
 h1 {
 
