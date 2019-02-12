@@ -15,10 +15,10 @@ body {
     align-items: center;
     background: #f2efed;
 }
-div {
-    width: 100px;
-    height: 100px;
-    background: white;
+#canvas {
+    width: 500px;
+    height: 270px;
+    background: black;
     border-top: 90px solid #ff8000;
     border-bottom: 90px solid #008000;
     position: relative;
@@ -32,12 +32,12 @@ div {
       width: 0px;
       height: 0px;
       border-right: 100px solid transparent;
-      border-bottom: 70px solid red;
+      border-bottom: 70px solid white;
       border-left: 100px solid transparent;
       transform: rotate(35deg);
     }
     #circle:before {
-      border-bottom: 80px solid red;
+      border-bottom: 80px solid white;
       border-left: 30px solid transparent;
       border-right: 30px solid transparent;
       position: absolute;
@@ -52,13 +52,13 @@ div {
     #circle:after {
       position: absolute;
       display: block;
-      color: red;
+      color: white;
       top: 3px;
       left: -105px;
       width: 0px;
       height: 0px;
       border-right: 100px solid transparent;
-      border-bottom: 70px solid red;
+      border-bottom: 70px solid white;
       border-left: 100px solid transparent;
       transform: rotate(-70deg);
       content: '';
