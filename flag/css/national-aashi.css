@@ -19,8 +19,8 @@ body {
     width: 500px;
     height: 270px;
     background: black;
-    border-top: 90px solid #ff8000;
-    border-bottom: 90px solid #008000;
+    border-top: 90px solid #fc2f8b;
+    border-bottom: 90px solid #2ed6fc;
     position: relative;
 }
 
@@ -28,7 +28,7 @@ div #circle {
     width: 0px;
     height: 0px;
     border-radius: 60px;
-    border: 45px solid #a50d0d;
+    border: 45px solid white;
     top: -80px;
     left: 200px;
     position: relative;
@@ -39,7 +39,7 @@ div #circle1 {
     width: 0px;
     height: 0px;
     border-radius: 60px;
-    border: 45px solid #a50d0d;
+    border: 45px solid white;
     top: -90px;
     left: 200px;
     position: relative;
@@ -50,7 +50,7 @@ div #circle2 {
     width: 0px;
     height: 0px;
     border-radius: 60px;
-    border: 46px solid #a50d0d;
+    border: 46px solid white;
     top: -100px;
     left: 200px;
     position: relative;
@@ -60,7 +60,7 @@ div #circle3 {
     width: 0px;
     height: 0px;
     border-radius: 60px;
-    border: 46px solid #a50d0d;
+    border: 46px solid white;
     top: -273px;
     left: 120px;
     position: relative;
@@ -71,7 +71,7 @@ div #circle4 {
     width: 0px;
     height: 0px;
     border-radius: 60px;
-    border: 46px solid #a50d0d;
+    border: 46px solid white;
     top: -365px;
     left: 280px;
     position: relative;
