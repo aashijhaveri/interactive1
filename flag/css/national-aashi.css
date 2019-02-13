@@ -16,19 +16,6 @@ body {
     background: #f2efed;
 }
 
--webkit-transition: background-color 2s ease-out;
-  -moz-transition: background-color 2s ease-out;
-  -o-transition: background-color 2s ease-out;
-  transition: background-color 2s ease-out;
-}
-
-.box:hover {
-  background-color: green;
-  cursor: pointer;
-}
-
-
-
 
 #canvas {
     width: 500px;
@@ -39,6 +26,12 @@ body {
     position: relative;
 
 }
+
+#canvas:hover {
+    border-top: 90px solid #cc0000;
+    border-bottom: 90px solid #ffde00;
+}
+
 
 h1 {
      -webkit-font-smoothing: antialiased;
