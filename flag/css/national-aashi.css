@@ -15,6 +15,21 @@ body {
     align-items: center;
     background: #f2efed;
 }
+
+-webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.box:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+
+
+
 #canvas {
     width: 500px;
     height: 270px;
@@ -22,6 +37,7 @@ body {
     border-top: 90px solid #fc2f8b;
     border-bottom: 90px solid #2ed6fc;
     position: relative;
+
 }
 
 h1 {
@@ -32,7 +48,11 @@ h1 {
   top: -268px;
     left: 200px;
     position: absolute;
+}
 
+h1:hover {
+  color: #FFD133;
+  cursor: pointer;
 }
 
 h2 {
@@ -46,6 +66,11 @@ h2 {
 
 }
 
+h2:hover {
+  color: #FFD133;
+  cursor: pointer;
+}
+
 h3{
   -webkit-font-smoothing: antialiased;
    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
@@ -55,6 +80,12 @@ h3{
   left: 240px;
   position: absolute;
 }
+
+h3:hover {
+  color: #FFD133;
+  cursor: pointer;
+}
+
 
  #circle {
       width: 0;
@@ -67,6 +98,11 @@ h3{
       position: absolute;
 
     }
+
+#circle:hover {
+  color: #FFD133;
+  cursor: pointer;
+} 
   
 
 
