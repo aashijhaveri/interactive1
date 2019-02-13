@@ -24,59 +24,61 @@ body {
     position: relative;
 }
 
-div #circle {
-    width: 0px;
-    height: 0px;
-    border-radius: 60px;
-    border: 45px solid white;
-    top: -80px;
+h1 {
+     -webkit-font-smoothing: antialiased;
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 200px;
+  color:white;
+  top: -268px;
     left: 200px;
-    position: relative;
+    position: absolute;
 
 }
 
-div #circle1 {
-    width: 0px;
-    height: 0px;
-    border-radius: 60px;
-    border: 45px solid white;
-    top: -90px;
-    left: 200px;
-    position: relative;
+h2 {
+  -webkit-font-smoothing: antialiased;
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 200px;
+  color:white;
+  top:-270px;
+  left: 160px;
+  position: absolute;
 
 }
 
-div #circle2 {
-    width: 0px;
-    height: 0px;
-    border-radius: 60px;
-    border: 46px solid white;
-    top: -100px;
-    left: 200px;
-    position: relative;
-
-}
-div #circle3 {
-    width: 0px;
-    height: 0px;
-    border-radius: 60px;
-    border: 46px solid white;
-    top: -273px;
-    left: 120px;
-    position: relative;
-
+h3{
+  -webkit-font-smoothing: antialiased;
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 200px;
+  color:white;
+  top:-304px;
+  left: 240px;
+  position: absolute;
 }
 
-div #circle4 {
-    width: 0px;
-    height: 0px;
-    border-radius: 60px;
-    border: 46px solid white;
-    top: -365px;
-    left: 280px;
-    position: relative;
+ #circle {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 100px solid white;
+      top:40px;
+      left: 196px;
+      position: absolute;
 
-}
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
 
 
 
