@@ -24,42 +24,38 @@ body {
     position: relative;
 }
 
- #circle {
-      margin: 50px 0;
-      position: relative;
-      display: block;
-      color: #911515;
-      width: 0px;
-      height: 0px;
-      border-right: 100px solid transparent;
-      border-bottom: 70px solid white;
-      border-left: 100px solid transparent;
-      transform: rotate(35deg);
-    }
-    #circle:before {
-      border-bottom: 80px solid white;
-      border-left: 30px solid transparent;
-      border-right: 30px solid transparent;
-      position: absolute;
-      height: 0;
-      width: 0;
-      top: -45px;
-      left: -65px;
-      display: block;
-      content: '';
-      transform: rotate(-35deg);
-    }
-    #circle:after {
-      position: absolute;
-      display: block;
-      color: white;
-      top: 3px;
-      left: -105px;
-      width: 0px;
-      height: 0px;
-      border-right: 100px solid transparent;
-      border-bottom: 70px solid white;
-      border-left: 100px solid transparent;
-      transform: rotate(-70deg);
-      content: '';
-    }
+div #circle {
+    width: 0px;
+    height: 0px;
+    border-radius: 60px;
+    border: 45px solid #0000ff;
+    top: 0.2px;
+    left: 200px;
+    position: relative;
+
+}
+
+div #circle1 {
+    width: 0px;
+    height: 0px;
+    border-radius: 60px;
+    border: 45px solid #0000ff;
+    top: 0.2px;
+    left: 200px;
+    position: relative;
+
+}
+
+div #circle2 {
+    width: 0px;
+    height: 0px;
+    border-radius: 60px;
+    border: 46px solid #0000ff;
+    top: 0px;
+    left: 200px;
+    position: relative;
+
+}
+
+
+
