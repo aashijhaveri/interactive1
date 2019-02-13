@@ -29,7 +29,7 @@ div #circle {
     height: 0px;
     border-radius: 60px;
     border: 45px solid #0000ff;
-    top: 0.2px;
+    top: -80px;
     left: 200px;
     position: relative;
 
@@ -40,7 +40,7 @@ div #circle1 {
     height: 0px;
     border-radius: 60px;
     border: 45px solid #0000ff;
-    top: 0.2px;
+    top: -90px;
     left: 200px;
     position: relative;
 
@@ -51,11 +51,33 @@ div #circle2 {
     height: 0px;
     border-radius: 60px;
     border: 46px solid #0000ff;
-    top: 0px;
+    top: -100px;
     left: 200px;
     position: relative;
 
 }
+div #circle3 {
+    width: 0px;
+    height: 0px;
+    border-radius: 60px;
+    border: 46px solid #0000ff;
+    top: -273px;
+    left: 120px;
+    position: relative;
+
+}
+
+div #circle4 {
+    width: 0px;
+    height: 0px;
+    border-radius: 60px;
+    border: 46px solid #0000ff;
+    top: -365px;
+    left: 280px;
+    position: relative;
+
+}
+
 
 
 
