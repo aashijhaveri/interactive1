@@ -5,18 +5,21 @@
     box-sizing: border-box;
 }
 body {
-    background: black;
+    background:#f7f7f7;
     font-size: 100px;
-    font-family: 'Rakkas', cursive;
+
 }
 #question{
     display: flex;
           justify-content: center;
           flex-direction: column;
           text-align: center;
-    color: yellow;
+    color: #aa0de8;
     width: 100vw;
     height: 100vh;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 140px;
+    line-height:150px;
 }
 #answer {
     display: none;
@@ -24,17 +27,21 @@ body {
 /* hidden message */
 @media (max-width: 1024px) {
     body {
-        background: yellow;
+        background: brown;
     }
     #answer {
             display: flex;
                   justify-content: center;
                   flex-direction: column;
                   text-align: center;
-        color: black;
+        color: grey;
         width: 100vw;
         height: 100vh;
+        font-family: 'Flintstone';
+        font-size: 140px;
+        line-height:150px;
     }
+
     #question {
         display: none;
     }
