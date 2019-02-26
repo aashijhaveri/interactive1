@@ -1,0 +1,90 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+}
+#desktop {
+    width: 100%;
+    height: 100vh;
+    background: url('../image/light.svg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size:100%;
+}
+#tablet,
+#mobile,
+#print {
+    display: none;
+}
+/* tablet */
+@media (min-width: 870px) and (max-width: 1024px) {
+    body {
+        background: black;
+    }
+    p #tablet {
+        display: flex;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+    color: brown;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 140px;
+    line-height:150px;
+
+
+    }
+    #desktop,
+    #mobile,
+    #print {
+        display: none;
+    }
+}
+/* mobile */
+@media (min-width: 670px) and (max-width: 870px) {
+    body {
+        background-color: red; 
+        
+}
+    
+    }
+    #mobile {
+    animation-name: background;
+    animation-duration: 8000ms;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    }
+    @keyframes background {
+        0%   {background-color: red;}
+        55%  {background-color: yellow;}
+        100%  {background-color: green;}
+        
+    } 
+    #desktop,
+    #tablet,
+    #print {
+        display: none;
+    }
+}
+/* print */
+@media print {
+    body {
+        background: orange;
+    }
+    #print {
+        display: inline;
+        color: black;
+    }
+    #desktop,
+    #tablet,
+    #mobile {
+        display: none;
+    }
+}
