@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 body {
+    background: white;
 }
 #desktop {
     width: 100%;
@@ -15,61 +16,78 @@ body {
     background-attachment: fixed;
     background-size:100%;
 }
+
 #tablet,
 #mobile,
 #print {
     display: none;
 }
+
 /* tablet */
 @media (min-width: 870px) and (max-width: 1024px) {
     body {
         background: black;
     }
-    p #tablet {
-        display: flex;
+
+    #tablet {
+        display: block;
+        margin-top:150px;
           justify-content: center;
           flex-direction: column;
           text-align: center;
-    color: brown;
-    font-family: 'Abril Fatface', cursive;
-    font-size: 140px;
-    line-height:150px;
-
-
+        font-family: 'BureauGrotCondensed Bold', sans-serif;
+        font-size: 130px;
+        height: 100vh;
+        background: black;
     }
-    #desktop,
+
+    #one {
+        color:red;
+    }
+    #two{
+        color:orange;
+    }
+    #three{
+        color:green;
+    }
+
     #mobile,
-    #print {
+    #print,
+    #desktop {
         display: none;
     }
 }
 /* mobile */
-@media (min-width: 670px) and (max-width: 870px) {
+@media (max-width: 869px) {
     body {
         background-color: red; 
         
-}
+    }
     
-    }
+    
     #mobile {
-    animation-name: background;
-    animation-duration: 8000ms;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-fill-mode: none;
-    animation-play-state: running;
+        display: block;
+        animation-name: background;
+        animation-duration:1s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        height: 100vh;
+        width: 100vw;
     }
+
     @keyframes background {
         0%   {background-color: red;}
         55%  {background-color: yellow;}
         100%  {background-color: green;}
         
     } 
-    #desktop,
     #tablet,
-    #print {
+    #print, 
+    #desktop {
         display: none;
     }
 }
@@ -80,11 +98,21 @@ body {
     }
     #print {
         display: inline;
-        color: black;
+        color: blue;
+        display: block;
+        margin-top:150px;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+        font-family: 'BureauGrotCondensed Bold', sans-serif;
+        font-size: 50px;
+        height: 100vh;
+        background: black;
+
     }
-    #desktop,
+   /* #desktop,
     #tablet,
     #mobile {
         display: none;
-    }
+    }*/
 }
