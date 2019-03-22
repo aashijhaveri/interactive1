@@ -1,0 +1,99 @@
+
+
+body {
+        background-color:#57e814 ; 
+        display: block;
+        animation-name: background;
+        animation-duration:1s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        position: relative;
+        
+    }
+
+    @keyframes background {
+        0%   {background-color: #57e814;}
+        55%  {background-color: #a7ff05;}
+        100%  {background-color: #f6ff05;}
+        
+    } 
+
+
+.grid-container {
+      display: grid;
+      grid-template-columns: 164px 500px 164px 164px 164px;
+       grid-template-rows: 35px 562px ;
+    
+       /*transform: translate(-50%, -50%);*/
+       font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+       font-weight: bold;
+       font-size: 20px;
+       /*text-align: center;
+       vertical-align: middle;*/
+
+       background: red;
+
+     }
+       
+/*grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+    }
+
+*/
+    #nameitem {
+      background-color: #cecece;
+      border: 2px solid black;
+      text-align: center;
+      padding-top: 5px;
+      /*top:10px;
+      vertical-align: middle;*/
+    }
+
+.grid-item {
+text-align: center;
+      padding-top: 5px;
+}
+
+.rows{
+
+}
+
+#window {
+  height: 500px;
+  overflow: scroll;
+width:1406px;
+       height: 597px;
+       margin:auto;
+       position: relative;
+       top:10vh;
+       left:15vh;
+}
+
+
+#fix {
+  position: fixed;
+  z-index: 100;
+  height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
