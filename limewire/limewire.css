@@ -27,15 +27,13 @@ body {
       display: grid;
       grid-template-columns: 164px 500px 164px 164px 164px;
        grid-template-rows: 35px 562px ;
-    
+
        /*transform: translate(-50%, -50%);*/
        font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
        font-weight: bold;
        font-size: 20px;
-       /*text-align: center;
-       vertical-align: middle;*/
+       background: #57e814;
 
-       background: red;
 
      }
        
@@ -53,33 +51,65 @@ body {
       vertical-align: middle;*/
     }
 
-.grid-item {
-text-align: center;
-      padding-top: 5px;
+.rows {
+    font-family: "Monaco", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+       font-weight: lighter;
+       
+
+}
+#row1 {
+  text-align: center;
+  /*padding-top:-20px;*/
+  font-size:60px;
+  color: yellow;
+  outline-color:red;
+  outline-width:20px;
+  line-height: 29px;
+
 }
 
-.rows{
+#row2{
+     font-family: "Monaco", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+     font-size: 17px;
+     line-height: 29px; 
+     text-align: left;
+     padding-top: 2px;
 
+}
+svg {
+  line-height: 25px;
+}
+#row3{
+  font-size: 17px;
+     line-height: 29px; 
+     text-align: center;
+     padding-top: 2px;
+}
+#row4{
+  font-size: 17px;
+     line-height: 29px; 
+     text-align: left;
+     padding-top: 2px;
 }
 
 #window {
-  height: 500px;
+  height: 1000px;
+  width:1156px;
   overflow: scroll;
-width:1406px;
        height: 597px;
        margin:auto;
        position: relative;
        top:10vh;
-       left:15vh;
+       left:0vh;
+       background: #57e814;
 }
 
 
 #fix {
   position: fixed;
   z-index: 100;
-  height: 100px;
+  height: 10px;
 }
-
 
 
 
