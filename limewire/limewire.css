@@ -91,7 +91,12 @@ svg {
      text-align: left;
      padding-top: 2px;
 }
-
+#row5{
+	font-size: 17px;
+     line-height: 29px; 
+     text-align: center;
+     padding-top: 2px;
+}
 #window {
   height: 1000px;
   width:1156px;
@@ -102,6 +107,25 @@ svg {
        top:10vh;
        left:0vh;
        background: #57e814;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #555; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #cecece; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ada9a9; 
 }
 
 
