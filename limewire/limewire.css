@@ -33,9 +33,14 @@ body {
        font-weight: bold;
        font-size: 20px;
        background: #57e814;
+       
 
 
      }
+
+.grid-item {
+	background: red;
+}
        
 /*grid-template-columns: auto auto auto auto;
   grid-template-rows: auto auto auto auto;
@@ -50,6 +55,8 @@ body {
       /*top:10px;
       vertical-align: middle;*/
     }
+
+
 
 .rows {
     font-family: "Monaco", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
@@ -100,7 +107,8 @@ svg {
 #window {
   height: 1000px;
   width:1156px;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
        height: 597px;
        margin:auto;
        position: relative;
@@ -111,21 +119,25 @@ svg {
 /* width */
 ::-webkit-scrollbar {
   width: 15px;
+
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #555; 
+  background: #555;
+  
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #cecece; 
+  background: #cecece;
+  
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #ada9a9; 
+
 }
 
 
@@ -134,9 +146,6 @@ svg {
   z-index: 100;
   height: 10px;
 }
-
-
-
 
 
 
