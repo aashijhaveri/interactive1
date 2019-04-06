@@ -12,7 +12,7 @@ body {
         animation-fill-mode: none;
         animation-play-state: running;
         position: relative;
-        
+       
     }
 
     @keyframes background {
@@ -33,7 +33,7 @@ body {
        font-weight: bold;
        font-size: 20px;
        background: #57e814;
-       
+      text-decoration: none;
 
 
      }
@@ -61,6 +61,7 @@ body {
 .rows {
     font-family: "Monaco", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
        font-weight: lighter;
+
        
 
 }
@@ -146,7 +147,6 @@ svg {
   z-index: 100;
   height: 10px;
 }
-
 
 
 
