@@ -148,7 +148,9 @@ svg {
   height: 10px;
 }
 
-
+a:hover{
+	color:#ada9a9;
+}
 
 
 
