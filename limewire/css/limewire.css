@@ -23,6 +23,18 @@ body {
     } 
 
 
+ .limewire {
+font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+       font-weight: bold;
+       font-size: 70px;
+       text-align: center;
+       display: block;
+       padding-top: 20px;
+       
+
+
+ }
+
 .grid-container {
       display: grid;
       grid-template-columns: 164px 500px 164px 164px 164px;
