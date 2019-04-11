@@ -33,6 +33,7 @@ p {
        text-align: center;
        display: block;
        padding-top: 50px;
+       display: none;
 
  }
 
@@ -177,9 +178,7 @@ a:hover{
   text-decoration:none;
 }
 
-div{
-  display: none;
-}
+
 
 
 @media (min-width: 300px) and (max-width: 1024px) {
