@@ -1,0 +1,2803 @@
+body {
+	background-color: black;
+	margin-top: 60px;
+}
+	/*animation-name: background;
+ 	animation-duration: 10s;
+ 	animation-iteration-count: infinite;
+ 	animation-direction: normal; 
+ 	animation-timing-function: ease-in-out;
+ 	animation-delay: 0s;
+}
+
+@keyframes background{
+	0%{
+		background-color: #efde21;
+	}
+	10%{
+		background-color: #ef9920;
+	}
+	20%{
+		background-color: #20efe8;
+	}
+	30%{
+		background-color: #43b9ef;
+	}
+	40%{
+		background-color: #43b9ef;
+	}
+	50%{
+		background-color: #43b9ef;
+	}
+	60%{
+		background-color: #43b9ef;
+	}
+	70%{
+		background-color: #ea6990;
+	}
+	80%{
+		background-color: #200491;
+	}
+	90%{
+		background-color: #04024c;
+	}
+	100%{
+		background-color: #000000;
+	}
+}
+
+*/
+
+
+#truck-flowers {
+	position: relative;
+	min-height: 100vh;
+	animation-name: flowers;
+ 	animation-duration: 10s;
+ 	animation-iteration-count: infinite;
+ 	animation-direction: normal; 
+ 	animation-timing-function: ease-in-out;
+ 	animation-delay: 0s;
+}
+
+@keyframes flowers {
+	from{
+		transform: scale(1);
+	}
+	to{
+		transform: scale(0.1);
+	}
+}
+
+
+
+
+
+.truck{
+	margin-top: -45px;
+}
+
+.flowers{
+	margin-top: -320px;
+	margin-left: 90px;
+}
+
+.P1 {
+	width: 120px;
+	height: 160px;
+	position: relative;
+	display: inline-block;
+	margin: 5px;
+	top: -937px;
+	left: 1474px;
+}
+
+.H1 {
+	width: 120px;
+	height: 160px;
+	position: relative;
+	display: inline-block;
+	margin: 5px;
+	top: -589px;
+	left: 41px;
+}
+
+
+.O1 {
+	width: 120px;
+	height: 160px;
+	position: relative;
+	display: inline-block;
+	margin: 5px;
+	top: -652px;
+	left: 589px;
+}
+
+
+.horn {
+	width: 600px;
+	margin: center;
+	transform: scale(0.5);
+
+}
+
+.black-block{
+	width: 573px;
+	height: 120%;	
+	position: absolute;
+	top: -609px;
+	right: 7px;
+	background-color: black;
+}
+
+.please {
+	width: 800px;
+	margin: center;
+	transform: scale(0.5);
+
+}
+
+.black-block1{
+	width: 842px;
+	height: 120%;	
+	position: absolute;
+	top: -957px;
+	right: -1495px;
+	background-color: black;
+}
+
+
+.ok {
+	width: 800px;
+	margin: center;
+	transform: scale(1);
+
+}
+
+.black-block2{
+	width: 316px;
+	height: 123%;	
+	position: absolute;
+	top: -673px;
+	right: -78px;
+	background-color: black;
+}
+
+/*
+.flower1{
+	animation-name: flowers;
+ 	animation-duration: 4s;
+ 	animation-iteration-count: infinite;
+ 	animation-direction: normal; 
+ 	animation-timing-function: ease;
+ 	animation-delay: 0s; 
+
+}
+
+
+@keyframes flowers{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+*/
+
+#character-set {
+	position: relative;
+	min-height: 100vh;
+}
+
+.border{
+	top: -270px;
+	position: absolute;
+}
+
+.border2{
+	bottom: 783px;
+	position: absolute;
+}
+
+.letter {
+	width: 120px;
+	height: 160px;
+	position: relative;
+	display: inline-block;
+	margin: 5px;
+	top: -133px;
+	left: 120px;
+}
+
+.row {
+	width: 1300px;
+	margin: center;
+}
+
+/* pieces */
+
+
+
+.vertical {
+	width: 56px;
+	height: 100%;
+	position: absolute;
+}
+
+.horizontal {
+	width: 100%;
+	height: 40px;	
+	position: absolute;
+}
+
+.horizontal.one{
+	background-color: #efe9d2;
+	top: 0px;
+	left: 0px;
+	animation-name: horizontalone;
+ 	animation-duration: 1s;
+ 	animation-iteration-count: infinite;
+ 	animation-direction: alternate; 
+ 	animation-timing-function: linear;
+ 	animation-delay: 0s; 	
+}
+
+@keyframes horizontalone{
+	0%{
+		background-color: #efe9d2;
+	}
+	50%{
+		background-color: #efe9d2;
+	}
+	51%{
+		background-color: #e8f6f7;
+	}
+	100%{
+		background-color: #e8f6f7;
+	}
+}
+
+.horizontal.two{
+	background-color: #e0b600;
+	top: 40px;
+	left: 0px;
+	animation-name: horizontaltwo;
+ 	animation-duration: 1s;
+ 	animation-iteration-count: infinite;
+ 	animation-direction: alternate; 
+ 	animation-timing-function: linear;
+ 	animation-delay: 0s; 	
+}
+
+@keyframes horizontaltwo{
+	0%{
+		background-color: #e0b600;
+	}
+	50%{
+		background-color: #e0b600;
+	}
+	51%{
+		background-color: #81e9f4;
+	}
+	100%{
+		background-color: #81e9f4;
+	}
+}
+
+.horizontal.three{
+	background-color: #e07e00;
+	top: 80px;
+	left: 0px;
+	animation-name: horizontalthree;
+ 	animation-duration: 1s;
+ 	animation-iteration-count: infinite;
+ 	animation-direction: alternate; 
+ 	animation-timing-function: linear;
+ 	animation-delay: 0s; 	
+}
+
+@keyframes horizontalthree{
+	0%{
+		background-color: #e07e00;
+	}
+	50%{
+		background-color: #e07e00;
+	}
+	51%{
+		background-color: #fc5fba;
+	}
+	100%{
+		background-color: #fc5fba;
+	}
+}
+
+
+.horizontal.four{
+	background-color: #a00101;
+	top: 120px;
+	left: 0px;
+	animation-name: horizontalfour;
+ 	animation-duration: 1s;
+ 	animation-iteration-count: infinite;
+ 	animation-direction: alternate; 
+ 	animation-timing-function: linear;
+ 	animation-delay: 0s; 	
+}
+
+@keyframes horizontalfour{
+	0%{
+		background-color: #a00101;
+	}
+	50%{
+		background-color: #a00101;
+	}
+	51%{
+		background-color: #e00000;
+	}
+	100%{
+		background-color: #e00000;
+	}
+}
+
+
+
+	
+
+/* A */
+
+/* 
+style the left 
+vertical stroke in 
+'A' by combining 
+classes 
+*/
+
+
+
+#A .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#A .vertical.right {
+	right: 0px;
+	top: 0px;
+}
+
+
+
+
+#A .a-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#A .a-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#A .a-blackspace{
+	width: 8px;
+	height: 22%;	
+	position: absolute;
+	top: 30px;
+	right: 56px;
+	background-color: black;
+}
+
+#A .a2-blackspace{
+	width: 8px;
+	height: 40%;	
+	position: absolute;
+	top: 95px;
+	right: 56px;
+	background-color: black;
+}
+
+
+/* B */
+
+
+
+
+
+#B .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#B .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+
+#B .b-intersect {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 60px;
+    right: 0px;
+}
+
+#B .b-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#B .b-intersect3 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    right: 0px;
+}
+
+#B .b-blackspace{
+	width: 8px;
+	height: 22%;	
+	position: absolute;
+	top: 30px;
+	right: 56px;
+	background-color: black;
+}
+
+#B .b2-blackspace{
+	width: 8px;
+	height: 22%;	
+	position: absolute;
+	top: 95px;
+	right: 56px;
+	background-color: black;
+}
+
+
+
+
+/* C */
+
+
+
+#C .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#C .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+
+#C .c-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#C .c-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#C .c-intersect3 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    right: 0px;
+}
+
+#C .c-intersect4 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    left: 0px;
+}
+
+
+#C .c-blackspace{
+	width: 8px;
+	height: 27%;	
+	position: absolute;
+	top: 58px;
+	right: 56px;
+	background-color: black;
+}
+
+#C .c2-blackspace{
+	width: 64px;
+	height: 5%;	
+	position: absolute;
+	top: 76px;
+	right: 0px;
+	background-color: black;
+}
+
+
+/* D */
+
+
+
+#D .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#D .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+
+#D .d-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#D .d-intersect3 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    right: 0px;
+}
+
+#D .d-blackspace{
+	width: 8px;
+	height: 64%;	
+	position: absolute;
+	top: 30px;
+	right: 56px;
+	background-color: black;
+}
+
+/* E */
+
+
+
+#E .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#E .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+
+#E .e-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#E .e-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#E .e-intersect3 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    right: 0px;
+}
+
+#E .e-intersect4 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    left: 0px;
+}
+
+
+#E .e-blackspace{
+	width: 64px;
+	height: 5%;	
+	position: absolute;
+	top: 97px;
+	right: 0px;
+	background-color: black;
+}
+
+#E .e2-blackspace{
+	width: 64px;
+	height: 5%;	
+	position: absolute;
+	top: 58px;
+	right: 0px;
+	background-color: black;
+}
+
+/* F */
+
+
+#F .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#F .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+
+#F .f-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#F .f-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#F .f-intersect3 {
+	width: 0;
+    height: 55px;
+    border-top: 0px solid transparent;
+    border-right: 64px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 105px;
+    right: 0px;
+}
+
+#F .f-intersect4 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    left: 0px;
+}
+
+#F .f2-blackspace{
+	width: 64px;
+	height: 5%;	
+	position: absolute;
+	top: 58px;
+	right: 0px;
+	background-color: black;
+}
+
+/* G */
+
+
+#G .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#G .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+
+#G .g-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#G .g-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#G .g-intersect3 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    right: 0px;
+}
+
+#G .g-intersect4 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    left: 0px;
+}
+
+
+#G .g-blackspace{
+	width: 8px;
+	height: 27%;	
+	position: absolute;
+	top: 58px;
+	right: 56px;
+	background-color: black;
+}
+
+#G .g2-blackspace{
+	width: 64px;
+	height: 5%;	
+	position: absolute;
+	top: 76px;
+	right: 0px;
+	background-color: black;
+}
+
+
+#G .g3-blackspace{
+	width: 10px;
+	height: 5%;	
+	position: absolute;
+	top: 84px;
+	right: 51px;
+	background-color: #e07e00;
+	animation-name: horizontalthree;
+ 	animation-duration: 1s;
+ 	animation-iteration-count: infinite;
+ 	animation-direction: alternate; 
+ 	animation-timing-function: linear;
+ 	animation-delay: 0s; 	
+}
+
+@keyframes horizontalthree{
+	0%{
+		background-color: #e07e00;
+	}
+	50%{
+		background-color: #e07e00;
+	}
+	51%{
+		background-color: #fc5fba;
+	}
+	100%{
+		background-color: #fc5fba;
+	}
+}
+
+
+
+
+/* H */
+
+
+
+#H .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#H .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+#H .h-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#H .h-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#H .h-intersect3 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    right: 0px;
+}
+
+#H .h-intersect4 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    left: 0px;
+}
+
+
+#H .h-blackspace{
+	width: 8px;
+	height: 38%;	
+	position: absolute;
+	top: 0px;
+	right: 56px;
+	background-color: black;
+}
+
+#H .h2-blackspace{
+	width: 8px;
+	height: 38%;	
+	position: absolute;
+	top: 99px;
+	right: 56px;
+	background-color: black;
+}
+
+/* I */
+
+
+#I .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#I .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+#I .i-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#I .i-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#I .i-intersect3 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    right: 0px;
+}
+
+#I .i-intersect4 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    left: 0px;
+}
+
+#I .i-intersect5 {
+	width: 0;
+    height: 39px;
+    border-top: 0px solid transparent;
+    border-right: 22px solid black;
+    border-bottom: 0px solid transparent;
+    
+    position: absolute;
+    
+    top: 61px;
+    right: 0px;
+}
+
+#I .i-intersect6 {
+	width: 0;
+    height: 39px;
+    border-top: 0px solid transparent;
+    border-right: 22px solid black;
+    border-bottom: 0px solid transparent;
+    
+    position: absolute;
+    
+    top: 61px;
+    right: 98px;
+}
+
+
+/* J */
+
+
+#J .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#J .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+#J .j-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#J .j-intersect3 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    right: 0px;
+}
+
+#J .j-intersect4 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    left: 0px;
+}
+
+
+#J .j-intersect6 {
+	width: 0;
+    height: 108px;
+    border-top: 0px solid transparent;
+    border-right: 64px solid black;
+    border-bottom: 0px solid transparent;
+    
+    position: absolute;
+    
+    top: -7px;
+    right: 56px;
+}
+
+#J .j-blackspace{
+	width: 8px;
+	height: 38%;	
+	position: absolute;
+	top: 56px;
+	right: 56px;
+	background-color: black;
+}
+
+/* K */
+
+
+
+#K .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#K .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+#K .k-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#K .k-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-left: 58px solid black;
+    border-bottom: 35px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 6px;
+}
+
+#K .k-intersect3 {
+	width: 0;
+    height: 0;
+    border-top: 35px solid transparent;
+    border-left: 58px solid black;
+    border-bottom: 9px solid transparent;
+    
+    position: absolute;
+    
+    top: 133px;
+    right: 6px;
+}
+
+#K .k-intersect4 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    left: 0px;
+}
+
+#K .k-intersect5 {
+	width: 0;
+    height: 0;
+    border-top: 35px solid transparent;
+    border-right: 58px solid black;
+    border-bottom: 35px solid transparent;
+    
+    position: absolute;
+    
+    top: 45px;
+    right: -30px;
+}
+
+#K .k-blackspace{
+	width: 8px;
+	height: 38%;	
+	position: absolute;
+	top: 0px;
+	right: 56px;
+	background-color: black;
+}
+
+#K .k2-blackspace{
+	width: 8px;
+	height: 38%;	
+	position: absolute;
+	top: 99px;
+	right: 56px;
+	background-color: black;
+}
+
+/* L */
+
+
+#L .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#L .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+#L .l-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#L .l-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#L .l-intersect3 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    right: 0px;
+}
+
+#L .l-intersect4 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    left: 0px;
+}
+
+
+#L .l-intersect6 {
+	width: 0;
+    height: 108px;
+    border-top: 0px solid transparent;
+    border-right: 64px solid black;
+    border-bottom: 0px solid transparent;
+    
+    position: absolute;
+    
+    top: -7px;
+    right: 0px;
+}
+
+/* M */
+
+
+
+#M .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#M .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+#M .m-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#M .m-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#M .m-intersect3 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    right: 0px;
+}
+
+#M .m-intersect4 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    left: 0px;
+}
+
+#M .m-intersect5 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid black;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 0px;
+    left: 40px;
+}
+
+#M .m-intersect6 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid black;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 0px;
+    right: 40px;
+}
+
+#M .m2-blackspace{
+	width: 8px;
+	height: 42%;	
+	position: absolute;
+	top: 94px;
+	right: 56px;
+	background-color: black;
+}
+
+/* N */
+
+
+
+#N .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#N .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+#N .n-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#N .n-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#N .n-intersect3 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    right: 0px;
+}
+
+#N .n-intersect4 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    left: 0px;
+}
+
+#N .n-intersect5 {
+	width: 0;
+    height: 0;
+    border-top: 37px solid transparent;
+    border-right: 11px solid transparent;
+    border-bottom: 64px solid black;
+    
+    position: absolute;
+    
+    top: 59px;
+    left: 54px;
+}
+
+#N .n-intersect6 {
+	width: 0;
+    height: 0;
+    border-top: 64px solid black;
+    border-left: 11px solid transparent;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 0px;
+    right: 56px;
+}
+
+/* O */
+
+
+
+#O .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#O .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+#O .o-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#O .o-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#O .o-intersect3 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    right: 0px;
+}
+
+#O .o-intersect4 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    left: 0px;
+}
+
+
+#O .o-blackspace{
+	width: 8px;
+	height: 38%;	
+	position: absolute;
+	top: 50px;
+	right: 56px;
+	background-color: black;
+}
+
+
+/* P */
+
+
+
+#P .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#P .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+#P .p-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#P .p-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#P .p-intersect3 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 85px;
+    right: 0px;
+}
+
+#P .p-intersect4 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    left: 0px;
+}
+
+#P .p-intersect5 {
+	width: 0;
+    height: 55px;
+    border-top: 0px solid transparent;
+    border-right: 64px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 105px;
+    right: 0px;
+}
+
+#P .p-blackspace{
+	width: 8px;
+	height: 22%;	
+	position: absolute;
+	top: 35px;
+	right: 56px;
+	background-color: black;
+}
+
+/* Q */
+
+
+
+#Q .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#Q .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+#Q .q-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#Q .q-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+
+#Q .q-intersect4 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    left: 0px;
+}
+
+
+#Q .q-blackspace{
+	width: 8px;
+	height: 38%;	
+	position: absolute;
+	top: 50px;
+	right: 56px;
+	background-color: black;
+}
+
+/* R */
+
+
+
+#R .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#R .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+#R .r-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#R .r-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#R .r-intersect3 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 85px;
+    right: 0px;
+}
+
+#R .r-intersect4 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    left: 0px;
+}
+
+#R .r-intersect5 {
+	width: 0;
+    height: 0;
+    border-top: 57px solid transparent;
+    border-left: 50px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 106px;
+    left: 56px;
+}
+
+
+#R .r-blackspace{
+	width: 8px;
+	height: 22%;	
+	position: absolute;
+	top: 35px;
+	right: 56px;
+	background-color: black;
+}
+
+/* S */
+
+
+
+#S .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#S .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+#S .s-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#S .s-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#S .s-intersect3 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    right: 0px;
+}
+
+#S .s-intersect4 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    left: 0px;
+}
+
+
+#S .s-intersect5 {
+	width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-right: 94px solid black;
+    border-bottom: 33px solid transparent;
+    
+    position: absolute;
+    
+    top: 58px;
+    right: -30px;
+}
+
+#S .s-intersect6 {
+	width: 0;
+    height: 0;
+    border-top: 23px solid transparent;
+    border-left: 64px solid black;
+    border-bottom: 0px solid transparent;
+    
+    position: absolute;
+    
+    top: 80px;
+    right: 56px;
+}
+
+
+/* T */
+
+
+#T .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#T .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+#T .t-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#T .t-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+
+#T .t-intersect5 {
+	width: 0;
+    height: 100px;
+    border-top: 0px solid transparent;
+    border-right: 22px solid black;
+    border-bottom: 0px solid transparent;
+    
+    position: absolute;
+    
+    top: 61px;
+    right: 0px;
+}
+
+#T .t-intersect6 {
+	width: 0;
+    height: 100px;
+    border-top: 0px solid transparent;
+    border-right: 22px solid black;
+    border-bottom: 0px solid transparent;
+    
+    position: absolute;
+    
+    top: 61px;
+    right: 98px;
+}
+
+/* U */
+
+
+
+#U .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#U .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+#U .u-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#U .u-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#U .u-intersect3 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    right: 0px;
+}
+
+#U .u-intersect4 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    left: 0px;
+}
+
+
+#U .u-blackspace{
+	width: 8px;
+	height: 69%;	
+	position: absolute;
+	top: 0px;
+	right: 56px;
+	background-color: black;
+}
+
+
+/* V */
+
+
+
+#V .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#V .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+#V .v-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#V .v-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#V .v-intersect3 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    right: 0px;
+}
+
+#V .v-intersect4 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    left: 0px;
+}
+
+#V .v-intersect5 {
+	width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-right: 9px solid black;
+    border-bottom: 110px solid transparent;
+    
+    position: absolute;
+    
+    top: 0px;
+    right: 61px;
+}
+
+#V .v-intersect6 {
+	width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-left: 9px solid black;
+    border-bottom: 110px solid transparent;
+    
+    position: absolute;
+    
+    top: 0px;
+    right: 52px;
+}
+
+#V .v-intersect7 {
+	width: 0;
+    height: 0;
+    border-top: 141px solid transparent;
+    border-right: 9px solid black;
+    border-bottom: 0px solid transparent;
+    
+    position: absolute;
+    
+    top: 19px;
+    right: 0px;
+}
+
+#V .v-intersect8 {
+	width: 0;
+    height: 0;
+    border-top: 141px solid transparent;
+    border-left: 9px solid black;
+    border-bottom: 0px solid transparent;
+    
+    position: absolute;
+    
+    top: 19px;
+    right: 111px;
+}
+
+
+/* W */
+
+
+
+#W .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#W .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+#W .w-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#W .w-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#W .w-intersect3 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    right: 0px;
+}
+
+#W .w-intersect4 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    left: 0px;
+}
+
+#W .w-intersect5 {
+	width: 0;
+    height: 0;
+    border-top: 22px solid transparent;
+    border-right: 7px solid black;
+    border-bottom: 0px solid transparent;
+    
+    position: absolute;
+    
+    top: 138px;
+    right: 60px;
+}
+
+#W .w-intersect6 {
+	width: 0;
+    height: 0;
+    border-top: 22px solid transparent;
+    border-left: 7px solid black;
+    border-bottom: 0px solid transparent;
+    
+    position: absolute;
+    
+    top: 138px;
+    right: 53px;
+}
+
+#W .w-intersect7 {
+	width: 0;
+    height: 0;
+    border-top: 141px solid transparent;
+    border-right: 9px solid black;
+    border-bottom: 0px solid transparent;
+    
+    position: absolute;
+    
+    top: 19px;
+    right: 0px;
+}
+
+#W .w-intersect8 {
+	width: 0;
+    height: 0;
+    border-top: 141px solid transparent;
+    border-left: 9px solid black;
+    border-bottom: 0px solid transparent;
+    
+    position: absolute;
+    
+    top: 19px;
+    right: 111px;
+}
+
+#W .w-intersect9 {
+	width: 0;
+    height: 0;
+    border-top: 22px solid transparent;
+    border-right: 4px solid #e07e00;
+    border-bottom: 0px solid transparent;
+    
+    position: absolute;
+    
+    top: 88px;
+    right: 60px;
+    animation-name: horizontalthree;
+ 	animation-duration: 1s;
+ 	animation-iteration-count: infinite;
+ 	animation-direction: alternate; 
+ 	animation-timing-function: linear;
+ 	animation-delay: 0s; 	
+}
+
+@keyframes horizontalthree{
+	0%{
+		background-color: #e07e00;
+	}
+	50%{
+		background-color: #e07e00;
+	}
+	51%{
+		background-color: #fc5fba;
+	}
+	100%{
+		background-color: #fc5fba;
+	}
+}
+
+#W .w-intersect10 {
+	width: 0;
+    height: 0;
+    border-top: 22px solid transparent;
+    border-left: 4px solid #e07e00;
+    border-bottom: 0px solid transparent;
+    
+    position: absolute;
+    
+    top: 88px;
+    right: 56px;
+    animation-name: horizontalthree;
+ 	animation-duration: 1s;
+ 	animation-iteration-count: infinite;
+ 	animation-direction: alternate; 
+ 	animation-timing-function: linear;
+ 	animation-delay: 0s; 	
+}
+
+@keyframes horizontalthree{
+	0%{
+		background-color: #e07e00;
+	}
+	50%{
+		background-color: #e07e00;
+	}
+	51%{
+		background-color: #fc5fba;
+	}
+	100%{
+		background-color: #fc5fba;
+	}
+}
+
+#W .w-blackspace{
+	width: 8px;
+	height: 69%;	
+	position: absolute;
+	top: 0px;
+	right: 56px;
+	background-color: black;
+}
+
+/* X */
+
+
+
+#X .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#X .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+#X .x-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#X .x-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#X .x-intersect3 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    right: 0px;
+}
+
+#X .x-intersect4 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    left: 0px;
+}
+
+
+#X .x-blackspace{
+	width: 8px;
+	height: 33%;	
+	position: absolute;
+	top: 0px;
+	right: 56px;
+	background-color: black;
+}
+
+#X .x-blackspace1{
+	width: 8px;
+	height: 33%;	
+	position: absolute;
+	top: 107px;
+	right: 56px;
+	background-color: black;
+}
+
+#X .x-blackspace2{
+	width: 22px;
+	height: 5%;	
+	position: absolute;
+	top: 77px;
+	right: 0px;
+	background-color: black;
+}
+
+
+#X .x-blackspace3{
+	width: 22px;
+	height: 5%;	
+	position: absolute;
+	top: 77px;
+	right: 98px;
+	background-color: black;
+}
+
+
+/* Y */
+
+
+
+#Y .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#Y .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+#Y .y-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#Y .y-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#Y .y-intersect3 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 85px;
+    right: 0px;
+}
+
+#Y .y-intersect4 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 85px;
+    left: 0px;
+}
+
+#Y .y-intersect5 {
+	width: 0;
+    height: 55px;
+    border-top: 0px solid transparent;
+    border-right: 34px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 105px;
+    right: -1px;
+}
+
+#Y .y-intersect6 {
+	width: 0;
+    height: 55px;
+    border-top: 0px solid transparent;
+    border-right: 34px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 105px;
+    left: -1px;
+}
+
+#Y .y-blackspace{
+	width: 8px;
+	height: 33%;	
+	position: absolute;
+	top: 0px;
+	right: 56px;
+	background-color: black;
+}
+
+
+/* Z */
+
+
+
+#Z .vertical.left {
+	left: 0px;
+	top: 0px;
+}
+
+#Z .vertical.right {
+	right: 0px;
+	top: 0px;
+	border-top-right-radius: 50px;	
+	border-bottom-right-radius: 50px;
+}
+
+#Z .z-intersect {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    left: 0px;
+}
+
+#Z .z-intersect2 {
+	width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: -15px;
+    right: 0px;
+}
+
+#Z .z-intersect3 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    right: 0px;
+}
+
+#Z .z-intersect4 {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    
+    top: 142px;
+    left: 0px;
+}
+
+#Z .z-intersect5 {
+	width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-left: 43px solid black;
+    border-bottom: 25px solid transparent;
+    
+    position: absolute;
+    
+    top: 59px;
+    right: 77px;
+}
+
+#Z .z-intersect6 {
+	width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-right: 43px solid black;
+    border-bottom: 0px solid transparent;
+    
+    position: absolute;
+    
+    top: 77px;
+    right: 0px;
+}
+
+
+#information {
+	position: relative;
+	min-height: 100vh;
+}
+
+.border3{
+	top: 2px;
+	position: absolute;
+}
+
+.border4{
+	bottom: -5px;
+	position: absolute;
+}
+
+
+.words{
+	font-family:"Baskerville", serif;
+	color: white;
+	font-weight: normal; 
+	display: block;
+	width:460px;
+	font-size:26px;
+	position: relative;
+	top:94px; 
+	left:105px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:hover{
+	color: #2bc430;
+}
+
+
+
+
+
+
+
