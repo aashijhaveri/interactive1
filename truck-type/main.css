@@ -2,6 +2,15 @@ body {
 	background-color: black;
 	margin-top: 60px;
 }
+
+.bg1{
+	background-color:#20bee5;
+	position: absolute;
+	height: 102vh;
+	width: 100vw;
+	z-index: -999;
+	top:-10px;
+}
 	/*animation-name: background;
  	animation-duration: 10s;
  	animation-iteration-count: infinite;
@@ -48,10 +57,65 @@ body {
 
 */
 
+#scenery{
+	position: relative;
+	min-height: 100vh;
+}
+.road{
+	border-bottom: 249px solid #ada4a4;
+    border-left: 670px solid transparent;
+    border-right:670px solid transparent;
+    height: 0;
+    width: 100px;
+    position: absolute;
+    
+    top: 482px;
+    left: 0px;
+}
+
+.line{
+	width: 12px;
+	height: 37%;	
+	position: absolute;
+	top: 482px;
+	right: 722px;
+	background-color: #f7d427;
+	transform: rotate(4deg);
+
+}
+
+.line1{
+	width: 12px;
+	height: 37%;	
+	position: absolute;
+	top: 482px;
+	right: 691px;
+	background-color: #f7d427;
+	transform: rotate(356deg);
+
+}
+
+.grass{
+	position: relative;
+	top:395px;
+	left:70px;
+	transform: skew(337deg);
+}
+
+.grass2{
+	position: relative;
+	top:55px;
+	left:746px;
+	transform: skew(23deg);
+}
+
 
 #truck-flowers {
 	position: relative;
 	min-height: 100vh;
+
+}
+	/*
 	animation-name: flowers;
  	animation-duration: 10s;
  	animation-iteration-count: infinite;
@@ -70,11 +134,11 @@ body {
 }
 
 
-
+*/
 
 
 .truck{
-	margin-top: -45px;
+	margin-top: -850px;
 }
 
 .flowers{
@@ -111,6 +175,16 @@ body {
 	margin: 5px;
 	top: -652px;
 	left: 589px;
+}
+
+.J1 {
+	width: 120px;
+	height: 160px;
+	position: relative;
+	display: inline-block;
+	margin: 5px;
+	top: -1042px;
+	left: 464px;
 }
 
 
@@ -163,6 +237,14 @@ body {
 	background-color: black;
 }
 
+.jhaveri {
+	width: 1000px;
+	margin: center;
+	transform: scale(0.5);
+
+}
+
+
 /*
 .flower1{
 	animation-name: flowers;
@@ -191,12 +273,12 @@ body {
 }
 
 .border{
-	top: -270px;
+	top: -445px;
 	position: absolute;
 }
 
 .border2{
-	bottom: 783px;
+	bottom: 960px;
 	position: absolute;
 }
 
@@ -206,7 +288,7 @@ body {
 	position: relative;
 	display: inline-block;
 	margin: 5px;
-	top: -133px;
+	top: -310px;
 	left: 120px;
 }
 
@@ -2753,12 +2835,12 @@ classes
 }
 
 .border3{
-	top: 2px;
+	top: -180px;
 	position: absolute;
 }
 
 .border4{
-	bottom: -5px;
+	bottom: 168px;
 	position: absolute;
 }
 
@@ -2771,7 +2853,7 @@ classes
 	width:460px;
 	font-size:26px;
 	position: relative;
-	top:94px; 
+	top:-60px; 
 	left:105px;
 }
 
