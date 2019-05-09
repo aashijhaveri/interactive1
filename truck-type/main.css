@@ -1,10 +1,19 @@
 body {
 	background-color: black;
 	margin-top: 60px;
+	max-width: 76vh;
+}
+
+.custom {
+  cursor: url(cursor.png), default;
+}
+
+.hide {
+	display: none
 }
 
 .bg1{
-	background-color:#20bee5;
+	background-color:#e52dd6;
 	position: absolute;
 	height: 102vh;
 	width: 100vw;
@@ -267,18 +276,246 @@ body {
 }
 */
 
+
+
+#slogans{
+	position: relative;
+	min-height: 100vh
+}
+
+.border5{
+	top: -445px;
+	position: absolute;
+}
+
+.border6{
+	bottom: 440px;
+	position: absolute;
+}
+
+.M2 {
+	width: 120px;
+	height: 160px;
+	position: relative;
+	display: inline-block;
+	margin: 5px;
+}
+
+.mehboob {
+	width: 1000px;
+	margin: center;
+	transform: scale(1);
+	top: -938px;
+	left: 254px;
+	position: relative;
+
+}
+
+.mehboob:hover{
+	transform: scale(1.5);
+}
+
+.maa-ka-aashirwad{
+	width: 2019px;
+	top: -938px;
+	left: -270px;
+	position: relative;
+	transform: scale(0.7);
+}
+
+.maa-ka-aashirwad:hover{
+	transform: scale(1);
+}
+
+
+.A2{
+	width: 120px;
+	height: 160px;
+	position: relative;
+	display: inline-block;
+	margin: 5px;
+}
+
+
+.maa {
+	width: 400px;
+	display: inline-block;
+	margin-right: 40px;
+
+}
+
+.K2 {
+	width: 120px;
+	height: 160px;
+	position: relative;
+	display: inline-block;
+	margin: 5px;
+}
+
+.ka{
+	width: 270px;
+	display: inline-block;
+	margin-right:40px ;
+	
+
+}
+
+.W2{
+	width: 120px;
+	height: 160px;
+	position: relative;
+	display: inline-block;
+	margin: 5px;
+}
+
+.aashirwad{
+	width: 1300px;
+	display: inline;
+}
+
+.take-poison{
+	width: 2000px;
+	top: -1105px;
+	left: -290px;
+	position: relative;
+	transform: scale(0.5);
+	text-align: center;
+}
+
+.take-poison:hover{
+	transform: scale(1);
+}
+
+
+.T2{
+	width: 120px;
+	height: 160px;
+	position: relative;
+	display: inline-block;
+	margin: 5px;
+}
+
+
+.take {
+	width: 532px;
+	display: inline-block;
+	margin-right: 40px;
+
+}
+
+.P2 {
+	width: 120px;
+	height: 160px;
+	position: relative;
+	display: inline-block;
+	margin: 5px;
+}
+
+.poison{
+	width: 800px;
+	display: inline-block;
+	margin-right: 40px ;
+}
+
+.B2{
+	width: 120px;
+	height: 160px;
+	position: relative;
+	display: inline-block;
+	margin: 5px;
+}
+
+.but{
+	width: 398px;
+	display: inline-block;
+	margin-right: 40px;
+
+}
+
+.D2{
+	width: 120px;
+	height: 160px;
+	position: relative;
+	display: inline-block;
+	margin: 5px;
+}
+
+.do{
+	width: 264px;
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.N2{
+	width: 120px;
+	height: 160px;
+	position: relative;
+	display: inline-block;
+	margin: 5px;
+}
+
+.not{
+	width: 398px;
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.B3{
+	width: 120px;
+	height: 160px;
+	position: relative;
+	display: inline-block;
+	margin: 5px;
+}
+
+.believe{
+	width: 934px;
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.I2{
+	width: 120px;
+	height: 160px;
+	position: relative;
+	display: inline-block;
+	margin: 5px;
+}
+
+.in{
+	width: 264px;
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.G2{
+	width: 120px;
+	height: 160px;
+	position: relative;
+	display: inline-block;
+	margin: 5px;
+}
+
+.girls{
+	width: 666px;
+	display: inline-block;
+	margin-right: 40px;
+}
+
+
+
 #character-set {
 	position: relative;
 	min-height: 100vh;
 }
 
 .border{
-	top: -445px;
+	top: -618px;
 	position: absolute;
 }
 
 .border2{
-	bottom: 960px;
+	bottom: 611px;
 	position: absolute;
 }
 
@@ -288,7 +525,7 @@ body {
 	position: relative;
 	display: inline-block;
 	margin: 5px;
-	top: -310px;
+	top: -474px;
 	left: 120px;
 }
 
@@ -2831,30 +3068,31 @@ classes
 
 #information {
 	position: relative;
-	min-height: 100vh;
+	max-height: 100vh;
 }
 
 .border3{
-	top: -180px;
+	top: -615px;
 	position: absolute;
 }
 
 .border4{
-	bottom: 168px;
+	bottom: 609px;
 	position: absolute;
 }
 
 
 .words{
-	font-family:"Baskerville", serif;
+	font-family:"BROTHERS OT", sans-serif;
 	color: white;
 	font-weight: normal; 
 	display: block;
-	width:460px;
-	font-size:26px;
+	width:400px;
+	font-size:24px;
 	position: relative;
-	top:-60px; 
-	left:105px;
+	top:-491px; 
+	left:76px;
+	text-align: justify;
 }
 
 a:link {
@@ -2877,9 +3115,73 @@ a:hover{
 	color: #2bc430;
 }
 
+.image1{
+	width:500px;
+	height:auto;
+	display: flex;
+	position: relative;
+	z-index: -9999;
+	top: -1039px;
+	left:700px;
+	animation-name: imageone;
+ 	animation-duration: 10s;
+ 	animation-iteration-count: infinite;
+ 	animation-direction: alternate; 
+ 	animation-timing-function: ease-in-out;
+ 	animation-delay: 0s; 	
+}
+
+@keyframes imageone{
+	0%{
+		transform: rotate3d(20deg);
+	}	
+	100%{
+		transform: rotate3d(50deg);
+	}
+}
 
 
 
 
+
+.image2{
+	width:500px;
+	height:auto;
+	display: flex;
+	position: relative;
+	z-index: -9999;
+	top: -1106px;
+	left: 700px;
+}
+
+.image3{
+	width:200px;
+	height:auto;
+	display: flex;
+	position: relative;
+	z-index: -9999;
+	top: -1639px;
+	left: 1200px;
+}
+
+.image4{
+	width:200px;
+	height:auto;
+	display: flex;
+	position: relative;
+	z-index: -9999;
+	top: -1660px;
+	left: 1200px;
+}
+
+.image5{
+	width:200px;
+	height:auto;
+	display: flex;
+	position: relative;
+	z-index: -9999;
+	top: -1684px;
+	left: 1200px;
+}
 
 
