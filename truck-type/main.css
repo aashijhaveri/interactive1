@@ -2,6 +2,7 @@ body {
 	background-color: black;
 	margin-top: 60px;
 	max-width: 76vh;
+	cursor: url(cursor.png), default;
   
 }
 
