@@ -2,10 +2,7 @@ body {
 	background-color: black;
 	margin-top: 60px;
 	max-width: 76vh;
-}
-
-.custom {
-  cursor: url(cursor.png), default;
+  cursor: url(cursor.png), auto;
 }
 
 .hide {
